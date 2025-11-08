@@ -38,7 +38,14 @@ const DownloadCTA = () => {
             Baixar NexusTV
           </Button>
           
-          <p className="mt-6 text-sm text-muted-foreground">
+          <div className="mt-4 flex items-center gap-2 justify-center">
+            <div className="flex items-center gap-2 bg-green-500/10 border border-green-500/30 rounded-full px-4 py-2">
+              <Smartphone className="w-4 h-4 text-green-500" />
+              <span className="text-sm font-medium text-green-500">Disponível para Android</span>
+            </div>
+          </div>
+          
+          <p className="mt-4 text-sm text-muted-foreground">
             Download direto • Sem cadastro • 100% gratuito
           </p>
         </div>

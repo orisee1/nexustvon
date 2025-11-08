@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Download, Tv, Zap } from "lucide-react";
+import { Download, Tv, Zap, Smartphone } from "lucide-react";
 import heroPhone from "@/assets/hero-phone.png";
 
 const Hero = () => {
@@ -62,6 +62,13 @@ const Hero = () => {
                 <Tv className="w-5 h-5 mr-2" />
                 Ver Canais
               </Button>
+            </div>
+            
+            <div className="mt-4 flex items-center gap-2 justify-center lg:justify-start">
+              <div className="flex items-center gap-2 bg-green-500/10 border border-green-500/30 rounded-full px-4 py-2">
+                <Smartphone className="w-4 h-4 text-green-500" />
+                <span className="text-sm font-medium text-green-500">Disponível para Android</span>
+              </div>
             </div>
             
             <div className="mt-8 flex items-center gap-8 justify-center lg:justify-start text-sm text-muted-foreground">
