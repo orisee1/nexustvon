@@ -4,7 +4,7 @@ import heroPhone from "@/assets/hero-phone.png";
 
 const Hero = () => {
   const handleDownload = () => {
-    window.open("https://drive.usercontent.google.com/download?id=1G57ztx6GtZtR-cxmLBsvsIoGEUvcnj6n&export=download&authuser=0&confirm=t&uuid=32ac2a88-43f3-438b-9180-14532a204092&at=ALWLOp4pGXQC40rIkOnd3S7RU6bd%3A1762574471248", "_blank");
+    window.open("https://github.com/orisee1/NexusTV-Android/releases/download/v1.0.0/NexusTV.apk", "_blank");
   };
 
   const handleViewChannels = () => {
