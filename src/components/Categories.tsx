@@ -14,7 +14,7 @@ const categories = [
 
 const Categories = () => {
   return (
-    <section className="relative py-24 px-4">
+    <section id="categories" className="relative py-24 px-4">
       <div className="container relative z-10 mx-auto max-w-7xl">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">

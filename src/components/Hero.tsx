@@ -7,6 +7,10 @@ const Hero = () => {
     window.open("https://drive.usercontent.google.com/download?id=1G57ztx6GtZtR-cxmLBsvsIoGEUvcnj6n&export=download&authuser=0&confirm=t&uuid=32ac2a88-43f3-438b-9180-14532a204092&at=ALWLOp4pGXQC40rIkOnd3S7RU6bd%3A1762574471248", "_blank");
   };
 
+  const handleViewChannels = () => {
+    document.getElementById('categories')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 py-20">
       {/* Background gradient */}
@@ -52,6 +56,7 @@ const Hero = () => {
               <Button 
                 size="lg" 
                 variant="outline"
+                onClick={handleViewChannels}
                 className="border-2 border-primary/30 hover:bg-primary/10 text-foreground font-semibold text-lg px-8 py-6 rounded-full transition-all duration-300"
               >
                 <Tv className="w-5 h-5 mr-2" />
