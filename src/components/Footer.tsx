@@ -1,4 +1,4 @@
-import { Tv, Instagram, MessageCircle } from "lucide-react";
+import { Tv, Instagram, Phone } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
           
           <div className="flex flex-col items-center gap-3">
-            <p className="text-sm text-muted-foreground font-medium">Nossas Redes</p>
+            <p className="text-sm text-muted-foreground font-medium">Minhas Redes</p>
             <div className="flex items-center gap-4">
               <a
                 href="https://www.instagram.com/rafaelhenriquelp?igsh=MXE1Zmxka250MHJqYQ=="
@@ -34,7 +34,7 @@ const Footer = () => {
                 className="flex items-center justify-center w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl hover:scale-110 transition-all duration-300 shadow-[0_0_20px_rgba(34,197,94,0.3)] hover:shadow-[0_0_30px_rgba(34,197,94,0.5)]"
                 aria-label="WhatsApp"
               >
-                <MessageCircle className="w-6 h-6 text-white" />
+                <Phone className="w-6 h-6 text-white" />
               </a>
             </div>
           </div>
